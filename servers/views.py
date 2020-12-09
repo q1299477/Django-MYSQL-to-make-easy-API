@@ -10,8 +10,8 @@ from servers.models import TUser
 
 def login_view(request):
     if request.method == 'POST':
-        username = request.POST.get('username')
-        password = request.POST.get('password')
+        username = request.POST.get('username','')
+        password = request.POST.get('password','')
         date_error = {
             'username': username,
             'adminname': '',
