@@ -1,5 +1,5 @@
 # Django-MYSQL-to-make-easy-API
-create sql first or the project will start failed.
+create database first or the project will start failed.
 
 you can learn more from
 
